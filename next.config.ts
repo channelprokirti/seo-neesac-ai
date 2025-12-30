@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // Allow local network access during development
+  output: 'standalone',
   allowedDevOrigins: [
     'http://192.168.0.101:3000',
     'http://192.168.0.101:3001',
